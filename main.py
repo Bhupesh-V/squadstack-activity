@@ -26,7 +26,7 @@ def readInstructions():
             elif instruction[0] == "Leave":
                 slot_data = p.vacate_slot(int(instruction[1]))
                 print(
-                    f"Slot number {instruction[1]} vacated, the car with vehicle registration number {slot_data.vehicle_registration_number} left the space, the driver of the car was of age {slot_data.age_of_driver}"
+                    f'Slot number {instruction[1]} vacated, the car with vehicle registration number "{slot_data.vehicle_registration_number}" left the space, the driver of the car was of age {slot_data.age_of_driver}'
                 )
 
             elif instruction[0] == "Vehicle_registration_number_for_driver_of_age":
