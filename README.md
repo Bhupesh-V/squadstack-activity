@@ -1,2 +1,5 @@
 # squadstack-activity
-Solution to activity shared by squadstack for role of Product Engineer I
+
+## Installation
+1. Clone the repo
+2. Execute the `main.py` script
