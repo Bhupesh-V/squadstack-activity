@@ -31,7 +31,10 @@ def readInstructions():
 
             elif instruction[0] == "Vehicle_registration_number_for_driver_of_age":
                 vehicles = p.get_vehicle_registration(int(instruction[1]))
-                print(",".join(vehicles))
+                if len(vehicles) != 0:
+                    print(",".join(vehicles))
+                else:
+                    print(f"No vehicle found with age of driver", instruction[1])
 
             else:
                 print("Unrecognised instruction, skipping")
