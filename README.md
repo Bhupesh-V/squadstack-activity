@@ -10,5 +10,5 @@
 2. Run the `main.py` script using `python3 main.py`
 
 ## Assumptions
-1. Considering the initial slot is closer to entry gate, and the last slot number is closest to exit gate.
+1. Considering the initial slot is closer to entry gate, and the last slot number is closest to exit gate. This helps in assigning tickets closer to entry
 2. A parking lot once created does not modify again (i.e fixed no.of slots available once created).
